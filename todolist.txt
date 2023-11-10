@@ -1,0 +1,1 @@
+Just make it so when you click on an account, it highlights it.

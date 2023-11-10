@@ -1,0 +1,153 @@
+html, body {
+    text-align: center;
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #FDF7F4;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+/*########## NavBar ##########*/
+nav {
+    background-color: #FFD18C;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0 0 1rem;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid #FFA724;
+    border-right: 1px solid #FFA724;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*########## Pay/Transfer Container ##########*/
+button {
+    border: 3px solid #FFA724;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    width: 150px;
+    padding: .5em 1em;
+    margin: 0 .25rem;
+}
+
+/*########## Overview ##########*/
+#account-overview {
+    max-width: 1010px;
+    margin: auto;
+    gap: 1rem;
+}
+
+/*########## Accounts ##########*/
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.accounts-container h1,
+.spending-container h1 {
+    text-align: start;
+}
+
+#accounts-display {
+    padding: 0;
+}
+
+.account-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: 3px solid #FFA724;
+    margin: .5em 0;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.account-info:hover {
+    background-color: #FFD18C;
+}
+
+/*########## Spending ##########*/
+
+#spending-el {
+    display: none;
+}
+
+#spending-el h1 {
+    display: flex;
+    ;
+}
+
+#spending-el button {
+    margin: 0;
+    padding: 0;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: .25em;
+    border: 1px solid gray;
+}
+
+#spending-el button:hover {
+    background-color: #FFD18C;
+    border: 2px solid gray;
+}
+
+#spending-el h4 {
+    margin: .5em 0;
+    font-size: .8em;
+}
+
+#spending-display {
+    padding: 0;
+}
+
+.spending-graph {
+    padding: 0;
+}
+
+.spending-item {
+    background-color: #FFD18C;
+    padding: 0 1em;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: none;
+    margin: 0 0 0.5em 0;
+}
+
+/*########## MISC ##########*/
+.website-logo {
+    width: 12rem;
+}

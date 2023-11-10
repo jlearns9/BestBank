@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>BestBank</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="website-logo" src="assets/bestbank_logo.png" alt="bestbank_logo">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Savings</a></li>
+                <li><a href="#">Financing</a></li>
+                <li><a href="#">Stocks </a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="pay-transfer-container">
+                <button>Pay</button>
+                <button>Transfer</button>
+            </div>
+            <section id="account-overview">
+                <div class="accounts-container">
+                    <h1>Accounts</h1>
+                    <ul id="accounts-display"></ul>  
+                </div>
+                <div id="spending-el" class="spending-container">
+                    <h1>Spendings <button id="close-spendings">x</button></h1>
+                    <ul id="spending-display"></ul>
+                </div>
+            </section>
+        </main>
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>
